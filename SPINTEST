@@ -1,0 +1,36 @@
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getglobal Instance
+getfield -1 new
+pushstring BodyThrust
+pushvalue -4
+pcall 2 1 0
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getfield -1 BodyThrust
+getglobal Vector3
+getfield -1 new
+pushnumber 1000
+pushnumber 1
+pushnumber 0
+pcall 3 1 0
+setfield -3 Force
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getfield -1 BodyThrust
+getglobal Vector3
+getfield -1 new
+pushnumber 100
+pushnumber 0
+pushnumber 100
+pcall 3 1 0
+setfield -3 Location
